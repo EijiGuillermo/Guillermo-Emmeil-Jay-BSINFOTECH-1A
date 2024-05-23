@@ -1,0 +1,61 @@
+body {
+width: 100%;
+margin: 0;
+font-family: calibri;
+color: white;
+background-color: #3b3b3b;
+width: 100%;
+text-align: left;
+font-size: 30px;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #161616;
+}
+
+.topnav a {
+float: right;
+color: white;
+text-align: center;
+padding: 25px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #3b3b3b;
+color: white;
+}
+
+.topnav a.active {
+background-color: white;
+color: #161616;
+}
+
+.container {
+position: relative;
+width: 100%;
+font-family: Calibri;
+color: white;
+font-size: 16px;
+}
+
+.centered {
+position: absolute;
+top: 28%;
+left: 30%;
+transform: translate(-28%, -30%);
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+font-family: Calibri;
+font-size: 15px;
+background-color: #161616;
+color: white;
+text-align: center;
+width: 100%;
+}
